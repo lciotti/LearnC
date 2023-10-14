@@ -1,3 +1,6 @@
+# LearnC GitIgnore file
+# 2023
+
 # Prerequisites
 *.d
 
@@ -50,6 +53,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.bak
+*.swp
 
 # Ignore bin folder
 bin/

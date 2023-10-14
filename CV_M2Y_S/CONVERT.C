@@ -1,6 +1,6 @@
 //   Louis Ciotti
 //   Copyright 2023
-//   This program will convert the number of minutes entered 
+//   This program will convert the number of minutes entered
 //   by the user and convert them to YEARS and DAYS
 //
 
@@ -14,7 +14,7 @@ int main (void){
     long int minutes = 0;
     double days = 0;
     double years =0;
-    double minInDay = (60*60*24);
+    doublef minInDay = (60*24);
     double minInYear = (minInDay * 365);
 
     // Get user input of minutes
@@ -26,7 +26,7 @@ int main (void){
     years = minutes/minInYear;
 
     // Print Results
-    
+
     printf("\nNumber of minutes in a day: %.0f\n", minInDay);
     printf("Number of minutes in a year: %.0f\n", minInYear);
     printf("\n");
