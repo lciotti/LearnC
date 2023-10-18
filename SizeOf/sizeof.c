@@ -9,9 +9,6 @@
 
 int main (void)
 {
-    // set up variables
-    int result = 0;
-
     // display results
 
     printf("Size of int: %lu\n", sizeof(int));
@@ -20,5 +17,7 @@ int main (void)
     printf("Size of long long: %lu\n", sizeof(long long));
     printf("Size of double: %lu\n", sizeof(double));
     printf("Size of loing double: %lu\n", sizeof(long double));
+    printf("Size of loing float: %lu\n", sizeof(float));
+    printf("Size of loing short: %lu\n", sizeof(short));
 
 }
