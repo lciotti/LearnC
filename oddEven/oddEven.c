@@ -8,14 +8,15 @@
 
 #include<stdio.h>
 #include<string.h>
+#include<stdbool.h>
 
 int main(void)
 {
     int number_to_test, remainder;
-    _Bool loop=0;
+    bool loop=false;
     char again='n';
 
-    while(loop==0)
+    while(loop==false)
     {
         printf("\n");
         printf("** Odd/Even Checker **\n\n");
@@ -33,13 +34,13 @@ int main(void)
 
         printf("Run again? ");
         fflush(stdin);
-        scanf("%c", &again);
+        scanf("\n%c", &again);
         
         
         if (again=='N' | again=='n')
-            loop=1;
+            loop=true;
         else
-            loop=0;
+            loop=false;
     }
 
     return 0;
