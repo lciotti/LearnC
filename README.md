@@ -9,6 +9,6 @@ with the following texts:
 
 - Absolute Beginners Guide to C (ISBN 0-672-30510-0)
 
-The code here represents either excercises outlined durint the Udemy course, in 
+The code here represents either excercises outlined during the Udemy course, in 
 the texts, or just ramdom task I thought of to practice the various topics.
 
