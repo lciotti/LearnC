@@ -1,6 +1,9 @@
 {
     "files.associations": {
         "CONVERT.C": "cpp",
-        "BITWISE.C": "cpp"
+        "BITWISE.C": "cpp",
+        "OPPER.C": "cpp",
+        "ARRAY.C": "cpp",
+        "AVGGRADE.C": "cpp"
     }
 }
