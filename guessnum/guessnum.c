@@ -19,6 +19,7 @@ int main(void)
     int randomNum = 0;
     int guessNum = 0;
     int playerGuess = 0;
+    int maxGuess = 5;
     time_t timeSeed;
     
     // generate number
@@ -34,7 +35,7 @@ int main(void)
     printf("       - If the guess is correct\n");
     printf("       - if you guess incorrectly I will tell you if\n");
     printf("         your my number is higher of lower than your guess\n\n");
-    printf("You have 5 guesses.  GOOD LUCK!!\n\n");
+    printf("You have %i guesses.  GOOD LUCK!!\n\n", maxGuess);
 
     for(guessNum = 1; guessNum <=5; guessNum++)
     {
@@ -46,7 +47,7 @@ int main(void)
         {
             printf("\n\nWOW! You guessed my number!\n\n");
             printf("It took you %i guesses.", guessNum);
-            break;
+            return;
         }
         else if(playerGuess > randomNum)
         {
@@ -62,7 +63,7 @@ int main(void)
         }
     }
     
-    if(guessNum >= 5)
+    if(guessNum >= maxGuess)
     {
     printf("Sorry but you failed to guess my number.\n\n");
     printf("My number was %d. Better luck next time!\n\n", randomNum);
