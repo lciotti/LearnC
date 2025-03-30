@@ -59,6 +59,9 @@ dkms.conf
 # Ignore bin folder
 bin/
 
+# VSCODE files
+.vscode/
+
 # MAC OS files
 *.DS_Store
-.vscode/settings.json
+
